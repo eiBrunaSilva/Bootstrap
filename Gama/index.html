@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container"> //container-fluid pagina toda
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Minha loja na interne</h3>
+        </div>
+       </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <a class="navbar-brand" href="#">Navbar</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button> //botão oculto
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>// link
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> // link
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown </a> 
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> // setinha pra mais coisas em baixo
+          
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li> // link mais transparente
+        </ul>
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> // botão de pesquisa
+        </form>
+
+      </div>
+    </nav>
+    
+    <div class="row" id="imglogo">
+      <div class ="col-md-12">
+        <img id="logo" scr="">
+     </div>
+    </div>
+    
+    <div class="row" id="titulo">
+      <div class ="col-md-12">
+        <h3>Titulo</h3>
+     </div>
+    </div>
+    
+    <div class="row" id="titulo">
+      <div class ="col-md-4">
+       <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">$ 15.00</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Produto 1</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quero!</button>
+        
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </div>
+
+    <div class ="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">$ 10.00 </h5>
+        <h6 class="card-subtitle mb-2 text-muted">Produto 2</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </div>
+
+    <div class ="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">$ 5.00</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Produto 3</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </div>
+    
+    <div class="row" id="rodape">
+    <div class ="col-md-6">
+    <img src="">+90767665<p>
+    <p><img pi>@minhaloja
+    <p><img tw>@minhaloja
+    <p><img ins>@minhaloja
+    </div>
+
+    <div class ="col-md-6">
+    <h3> Receba novidades</h3>
+
+    <form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Digite seu e-mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Garantimos sua privacidade</small>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    </div>
+    </div>
+    
+    <!--Modal do produto 1-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+    <div class="modal-body">
+      <h3> Produto1:</h3>
+      <p>descricção</p>
+      <p>preço</p>
+    </div>
+
+           <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+
+    </div>
+    </div>
+    </div>
+    <!--Fim do Modal do produto 1-->
+ </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
